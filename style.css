@@ -1,0 +1,23 @@
+.board{
+	display: grid;
+	grid-template: repeat(10, 1fr) /  repeat(10, 1fr);
+	max-width: 500px;
+}
+
+.Squares{
+	height: 50px;
+	width: 50px;
+	border:1px solid black;
+}
+
+.empty{
+	background: rgb(80, 80, 80);	
+}
+
+.food {
+	background: red;
+}
+
+.snake {
+	background: lightyellow;
+}
